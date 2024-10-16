@@ -92,4 +92,3 @@ class Veiculo{
 
     $civic = new Carro ("Honda","Civic", "Azul", 2012);
     $titan = new Moto ("Honda","Titan 160", "Azul", 2024);
-
