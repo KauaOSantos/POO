@@ -22,7 +22,7 @@ class Animal {
         return $this->nomeCientifico;
     }
 }
-
+// Herdando atributos da classe pai 
 class Vertebrado extends Animal {
     public function __construct($nomeCientifico, $esqueleto, $habitat, $alimentacao) {
         parent::__construct($nomeCientifico, $esqueleto, $habitat, $alimentacao);
